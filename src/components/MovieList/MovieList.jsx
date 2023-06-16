@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import './MovieList.css'
-// import MovieItem here?
+import MovieItem from '../MovieItem/MovieItem';
 
 function MovieList() {
 
@@ -20,8 +20,9 @@ function MovieList() {
                     return (
                         <div key={movie.id} >
 {/* MovieItem here? Get rid of h3 and img below: */}
-                            <h3>{movie.title}</h3>
-                            <img src={movie.poster} alt={movie.title}/>
+                            {/* <h3>{movie.title}</h3>
+                            <img src={movie.poster} alt={movie.title}/> */}
+                            <MovieItem movie={movie}/>
                         </div>
                     );
                 })}
