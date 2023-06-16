@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import './MovieList.css'
+// import MovieItem here?
 
 function MovieList() {
 
     const dispatch = useDispatch();
-    const movies = useSelector(store => store.movies);
+    const moviesReducer = useSelector(store => store.moviesReducer);
 
     useEffect(() => {
         dispatch({ type: 'FETCH_MOVIES' });
@@ -15,9 +16,10 @@ function MovieList() {
         <main>
             <h1>MovieList</h1>
             <section className="movies">
-                {movies.map(movie => {
+                {moviesReducer.map(movie => {
                     return (
                         <div key={movie.id} >
+{/* MovieItem here? Get rid of h3 and img below: */}
                             <h3>{movie.title}</h3>
                             <img src={movie.poster} alt={movie.title}/>
                         </div>
