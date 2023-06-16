@@ -1,9 +1,13 @@
 import { HashRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import MovieList from "../MovieList/MovieList";
-{/* import Details here? */}
+{
+  /* import Details here? */
+}
 import Details from "../Details/Details";
-{/* import AddMovie here? */}
+{
+  /* import AddMovie here? */
+}
 
 function App() {
   return (
@@ -15,11 +19,11 @@ function App() {
         </Route>
         {/* Details page */}
         <Route path="/details" exact>
-<Details />
+          <Details />
         </Route>
         {/* Add Movie page */}
         <Route path="/addMovie" exact>
-{/* AddMovie route here? */}
+          {/* AddMovie route here? */}
         </Route>
       </Router>
     </div>
