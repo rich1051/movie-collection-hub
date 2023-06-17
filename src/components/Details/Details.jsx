@@ -1,6 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 
+// importing Material UI tools:
+import Button from '@mui/material/Button';
+
 function Details() {
   const dispatch = useDispatch();
   const history = useHistory();
@@ -25,7 +28,7 @@ function Details() {
           </div>
         ))}
       </div>
-      <button onClick={handleClick}>Back</button>
+      <Button variant="contained" onClick={handleClick}>Back</Button>
     </>
   );
 }
