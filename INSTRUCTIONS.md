@@ -36,17 +36,17 @@ We've added some movie posters in the `public/images` folder, and the database i
 
 ---
 
-## Feature List
+## Feature List X
 
 > NOTE: Start by taking inventory of the existing code. Part of the work for setting up sagas has been done for you.
 
-### Home / List Page
+### Home / List Page X
 
 This view is completed already! It displays all of the movies in the movie database. 
 
 - TODO: When a movie poster is clicked, a user should be brought to the `/details` view for that movie.
 
-### Details Page
+### Details Page X
 
 This should show all details **including ALL genres** for the selected movie, including title, description, and the image, too! Use Sagas and Redux to handle these requests and data.
 
@@ -78,7 +78,7 @@ As one of your last projects, it's possible you will be sharing this with employ
 This should show:
 
 - an input field (for the movie title)
-- an input field (for the movie poster image URL))
+- an input field (for the movie poster image URL)
 - a textarea (for the movie description)
 - a dropdown (for the genres)
 
