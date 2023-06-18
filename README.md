@@ -19,7 +19,7 @@ With a nearly endless collection of movies at our disposal, it can be hard to ea
 
 1. The app opens on a "Home" page, which provides a variety of movie posters and their accompanying titles. Upon click of a movie poster, the user will be navigated to a "Details" page for the specific movie clicked. 
 
-2. The "Details" page depicts the movie title, poster, genres, and a brief description from the database. Clicking the "Back" button the user back to "Home" page, where another movie may be selected. 
+2. The "Details" page depicts the movie title, poster, genres, and a brief description from the database. Clicking the "Back" button navigates the user back to "Home" page, where another movie may be selected. 
 
 ## Built With
 
