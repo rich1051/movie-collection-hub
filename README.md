@@ -8,12 +8,12 @@ With a nearly endless collection of movies at our disposal, it can be hard to ea
 
 ## Installation
 
-Create a database named `saga_movies_weekend`
-Run the queries from `database.sql` on the `saga_movies_weekend` database
-Open up your editor of choice and run an `npm install`
-Run `npm run server` in your terminal
-Run `npm run client` in your terminal
-The `npm run client` command will open up a new browser tab for you!
+1. Create a database named `saga_movies_weekend`
+2. Run the queries from `database.sql` on the `saga_movies_weekend` database
+3. Open up your editor of choice and run an `npm install`
+4. Run `npm run server` in your terminal
+5. Run `npm run client` in your terminal
+6. The `npm run client` command will open up a new browser tab for you!
 
 ## Usage
 
