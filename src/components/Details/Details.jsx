@@ -1,5 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
+import './Details.css'
+
+// importing Material UI tools:
+import Button from '@mui/material/Button';
 
 function Details() {
   const dispatch = useDispatch();
@@ -12,20 +16,22 @@ function Details() {
 
   return (
     <>
-      <div>
+      <div className="details">
         {detailsReducer.map((details) => (
           <div key={details.id}>
-            <h3>{details.title}</h3>
+            <h3 className="details-title">{details.title}</h3>
             <img
+              className="details-image"
               src={details.poster}
               alt={details.title}
             />
-            <p>Genres: {details.genres}</p>
-            <p>Description: {details.description}</p>
+            <p className="details-genre">Genres: {details.genres.join(', ')}</p>
+            <p className="details-description">Description: {details.description}</p>
           </div>
         ))}
+        <br />
       </div>
-      <button onClick={handleClick}>Back</button>
+      <Button className="details-button" variant="contained" onClick={handleClick}>Back</Button>
     </>
   );
 }

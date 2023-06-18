@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./MovieList.css";
 import MovieItem from "../MovieItem/MovieItem";
+import { Typography } from "@mui/material";
 
 function MovieList() {
   const dispatch = useDispatch();
@@ -13,7 +14,7 @@ function MovieList() {
 
   return (
     <main>
-      <h1>MovieList</h1>
+      <Typography variant="h4">View Our Collection:</Typography>
       <section className="movies">
         {moviesReducer.map((movie) => {
           return (

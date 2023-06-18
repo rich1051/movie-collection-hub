@@ -1,29 +1,34 @@
 import { HashRouter as Router, Route } from "react-router-dom";
 import "./App.css";
+
+// importing routes:
 import MovieList from "../MovieList/MovieList";
-{
-  /* import Details here? */
-}
 import Details from "../Details/Details";
-{
-  /* import AddMovie here? */
-}
+
+// importing Material UI tools:
+import "@fontsource/roboto/300.css";
+import "@fontsource/roboto/400.css";
+import "@fontsource/roboto/500.css";
+import "@fontsource/roboto/700.css";
+import { Typography } from "@mui/material";
+// import AddMovie here?
 
 function App() {
   return (
     <div className="App">
-      <h1>The Movies Saga!</h1>
+      <Typography variant="h2">The Movies Saga!</Typography>
       <Router>
+{/* MovieList will serve as "Home" page: */}
         <Route path="/" exact>
           <MovieList />
         </Route>
-        {/* Details page */}
+{/* on click of any movie poster, go to "Details" page */}
         <Route path="/details" exact>
           <Details />
         </Route>
-        {/* Add Movie page */}
+{/* Add Movie page */}
         <Route path="/addMovie" exact>
-          {/* AddMovie route here? */}
+{/* AddMovie route here if time permits */}
         </Route>
       </Router>
     </div>
