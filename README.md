@@ -1,9 +1,34 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# Weekend Movie Sagas
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+Duration: 3 Day Sprint
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+With a nearly endless collection of movies at our disposal, it can be hard to easily track current and past films that we want to watch. However, not anymore. Introducing the Weekend Movie Sagas app! This is a fully-functioning full-stack app primarily utilizing the power of React.js, Redux.js, and SQL to guide a user through a movie collection with a brief description for each, making it easier than ever to identify the perfect movie for your next watch party. 
+
+## Installation
+
+Create a database named `saga_movies_weekend`
+Run the queries from `database.sql` on the `saga_movies_weekend` database
+Open up your editor of choice and run an `npm install`
+Run `npm run server` in your terminal
+Run `npm run client` in your terminal
+The `npm run client` command will open up a new browser tab for you!
+
+## Usage
+
+1. The app opens on a "Home" page, which provides a variety of movie posters and their accompanying titles. Upon click of a movie poster, the user will be navigated to a "Details" page for the specific movie clicked. 
+
+2. The "Details" page depicts the movie title, poster, genres, and a brief description from the database. Clicking the "Back" button the user back to "Home" page, where another movie may be selected. 
+
+## Built With
+
+Visual Studio Code, Node/Nodemon, React.js, Redux.js, Axios, Material-UI, SQL, and Express
+
+## Acknowledgement
+
+Thanks to the Prime Digital Academy faculty (Liz and Dane) who equipped me with the tools to make this application possible. Also thank you to my local Prime podmates Sabina, Adam, and Zackaria for helping me troubleshoot.
+
+## Support
+
+If you have suggestions or issues, please email me at rich1051@umn.edu
