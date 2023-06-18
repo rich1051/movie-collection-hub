@@ -25,7 +25,7 @@ function Details() {
               src={details.poster}
               alt={details.title}
             />
-            <p className="details-genre">Genres: {details.genres.join(", ")}</p>
+            <p className="details-genre">Genre(s): {details.genres.join(", ")}</p>
             <p className="details-description">
               Description: {details.description}
             </p>

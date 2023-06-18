@@ -34,8 +34,10 @@
 .details-title:hover {
     color: goldenrod;
     text-decoration: underline goldenrod;
+    font-size: 2.2em;
 }
 
 .details-image:hover {
     border-color: goldenrod;
+    border-width: 25px;
 }
