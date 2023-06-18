@@ -14,7 +14,7 @@ function MovieList() {
 
   return (
     <main>
-      <Typography variant="h4">View Our Collection:</Typography>
+      <h1 className="subheading">View Our Collection:</h1>
       <section className="movies">
         {moviesReducer.map((movie) => {
           return (

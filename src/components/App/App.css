@@ -1,17 +1,20 @@
+.outer-App {
+  background-color: rgb(112, 0, 0);
+}
 .App {
+  background-color: rgb(112, 0, 0);
   text-align: center;
+  border-style: groove;
+  border-width: 20px;
+  border-radius: 25px;
+  border-color: goldenrod;
 }
 
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
+.app-title {
+  font-size: 5em;
+  color: goldenrod;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: -10px;
 }
 
 .App-intro {
@@ -21,4 +24,10 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.app-title:hover {
+  text-decoration: underline whitesmoke;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
